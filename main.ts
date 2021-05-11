@@ -21,6 +21,7 @@ input.onButtonPressed(Button.B, function () {
     Max2 = Max2 * 2
 })
 function Reset () {
+    basic.clearScreen()
     Blink = true
     Position = 0
     Scan_Pos = 0
